@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Call Status</title>
+    <style>
+      /* Base styles to match index.html */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(
+          to right,
+          violet,
+          blue
+        ); /* Violet to Blue gradient */
+        color: #333;
+        padding: 0 20px;
+      }
+
+      header {
+        background-color: #7c4dff; /* Violet color for header */
+        color: white;
+        text-align: center;
+        padding: 15px;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .message {
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      p {
+        font-size: 1.1rem;
+        color: #555;
+        margin-bottom: 20px;
+      }
+
+      .back-button {
+        text-align: center;
+        display: inline-block;
+        padding: 12px 30px;
+        background-color: #7c4dff; /* Violet color for button */
+        color: white;
+        text-decoration: none;
+        font-size: 1.1rem;
+        border-radius: 8px;
+        transition: background-color 0.3s;
+      }
+
+      .back-button:hover {
+        background-color: #5e2fbc; /* Darker violet for hover effect */
+      }
+
+      .status-message {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #4caf50;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Call Status</h1>
+    </header>
+    <div class="container">
+      <div class="message">
+        <p>Your call has been initiated successfully.</p>
+        <p>Stay on the line to communicate with the AI assistant.</p>
+      </div>
+      <div class="status-message">
+        <p>Call in progress...</p>
+      </div>
+      <div class="message">
+        <a href="index.html" class="back-button">Back to Home</a>
+      </div>
+    </div>
+  </body>
+</html>
